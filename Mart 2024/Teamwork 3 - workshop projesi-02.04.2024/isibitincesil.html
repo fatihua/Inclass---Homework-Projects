@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fieldset ve Legend Örneği</title>
+</head>
+<body>
+
+<form>
+  <fieldset>
+    <legend>Kişisel Bilgiler</legend>
+    <label for="name">İsim:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">E-posta:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="birthdate">Doğum Tarihi:</label>
+    <input type="date" id="birthdate" name="birthdate"><br><br>
+  </fieldset>
+
+  <fieldset>
+    <legend>Adres Bilgileri</legend>
+    <label for="address">Adres:</label><br>
+    <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+    <label for="city">Şehir:</label>
+    <input type="text" id="city" name="city"><br><br>
+    <label for="zipcode">Posta Kodu:</label>
+    <input type="text" id="zipcode" name="zipcode"><br><br>
+  </fieldset>
+
+  <input type="submit" value="Gönder">
+</form>
+
+</body>
+</html>

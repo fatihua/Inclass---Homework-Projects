@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teamwork3 Workshop</title>
+  </head>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    #div24{
+        width: 55px;
+    }
+    fieldset{
+        margin-top: -18px;
+    }
+  </style>
+  <body>
+
+    <h1>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
+
+    <fieldset>
+      <legend>Sözleşme Onayı</legend>
+      <input type="checkbox" id="div1" name="sözleşme-onay" />
+      <label for="div1"
+        >Aşağıdaki Bilgilerin doğruluğunu kabul ediyorum ve onaylıyorum.</label>
+      <br />
+      <input type="submit" value="Formu Kaydet" />
+      <input type="reset" value="Formu Temizle" />
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Kişisel Bilgiler</legend>
+      <div style="display: flex">
+        <div style="line-height: 1.5">
+          <label for="div21">Form Güvenlik ID</label>
+          <br />
+          <label for="div22">Ad</label>
+          <br />
+          <label for="div23">Soyad</label>
+          <br />
+          <label for="div24">Yaş</label>
+          <br />
+          <label for="div25">Mail Adresi</label>
+          <br />
+          <label for="div26">Fotoğraf Ekle</label>
+        </div>
+
+        <div style="margin-left: 15px; line-height: 1.5;">
+          <input
+            type="text"
+            id="div2.1"
+            name="form-güvenlik-id"
+            placeholder="Kodu Giriniz."
+            style="background-color: rgb(250, 244, 244); border: none; width: 172px; height: 20px;"/>
+          <br />
+          <input 
+          type="text" 
+          id="div22" 
+          name="Ad"
+          style="border:1px solid rgb(172, 169, 169); width: 170px; height: 18px;" />
+          <br />
+          <input type="text" id="div23" name="Soyad" style="border:1px solid rgb(172, 169, 169); width: 170px; height: 18px;"/>
+          <br />
+          <input type="number" id="div24" name="Yaş" style="border:1px solid rgb(172, 169, 169); height: 18px;"/>
+          <br />
+          <input type="email" id="div25" name="Email" style="border:1px solid rgb(172, 169, 169); width: 170px; height: 18px;"/>
+          <br />
+          <input
+            type="file"
+            id="div26"
+            value="Dosya Seç"
+            name="Seçilen Dosya"/>
+        </div>
+      </div>
+    </fieldset>
+    <br />
+    <fieldset>
+      <legend>Diğer Bilgiler</legend>
+      <div>
+        <h5 style="padding-left: 55px; margin-top: 0px;">
+        Buradaki alanlar Mesleki Deneyimi Kapsar</h5>
+        <div>
+          <div style="display: flex; margin-top: -15px;">
+            <div>
+                <label for="div31">Sektöre Giriş Tarihi</label>
+            </div>
+            <div style="margin-left: 100px;">
+                <input type="date" id="div31" name="sektöre-giriş-tarihi" />
+            </div>
+          </div>
+          
+            <div style="display: flex;">
+                <div style="margin-top: 25px;">
+                    <label for="div32">Sektör Deneyimi</label>
+                </div>
+                <div style="margin-left: 120px;">
+                    <input
+                    type="radio"
+                    id="div32"
+                    name="deneyim-yılı"
+                    value="1-5 yıl"
+                    />
+                    <label for="1-5">1-5 yıl</label>
+                    <br>
+                    <input
+                        type="radio"
+                        id="div32"
+                        name="deneyim-yılı"
+                        value="6-10 yıl"
+                    />
+                    <label for="1-5">6-10 yıl</label>
+                    <br>
+                    <input
+                        type="radio"
+                        id="div32"
+                        name="deneyim-yılı"
+                        value="11-15 yıl"
+                    />
+                    <label for="1-5">11-15 yıl</label>
+                    <br>
+                    <input
+                        type="radio"
+                        id="div32"
+                        name="deneyim-yılı"
+                        value="15-üzeri"
+                    />
+                    <label for="1-5">15-üzeri</label>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="margin-top: 30px;">
+                    <label for="div33">Programlama Dilleri</label>
+                </div>
+                <div style="margin-left: 94px;">
+                    <select name="Programlama Dilleri" id="div33" size="5">
+                        <option value="C#">C#</option>
+                        <option value="PHP#">PHP</option>
+                        <option value="Java">Java</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Angular">Angular</option>
+                        <option value="C++">C++</option>
+                        <option value="C+">C+</option>
+                    </select>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Sözleşme Kopyası</legend>
+        <textarea name="" id="" cols="35" rows="5" style="resize: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, expedita a quod harum suscipit est dolore ipsum necessitatibus ad aspernatur et. A sed nesciunt officia quae nobis, accusantium aspernatur magni quam, officiis eius itaque, ea praesentium iure. Ipsa obcaecati quo iusto mollitia illum odio, deleniti maxime aliquid accusantium incidunt qui!
+        </textarea>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Mail Listesi</legend>
+        <label for="div51">Mail Listesine katılmak <b>İstiyorum.</b></label>
+        <input type="radio" id="div51" name="mail-katılım">
+        <br>
+        <label for="div52">Mail listesine katılmak <b><ins>İstemiyorum.</ins></b></label>
+        <input type="radio" name="mail-katılım" id="div52">
+    </fieldset>
+  </body>
+</html>
