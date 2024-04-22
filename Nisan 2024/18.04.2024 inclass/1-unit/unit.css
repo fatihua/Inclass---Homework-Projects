@@ -1,0 +1,44 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.abs{
+    font-size: 50px;
+}
+.rel1{
+    background-color: crimson;
+    width: 50%;
+}
+.rel2{
+    background-color: aqua;
+    width: 50%;
+}
+.rel3{
+    background-color: coral;
+    width: 50vw;
+}
+
+/* parent-child ilişkisi önemli, ikisine de bir height değeri tanımlamalıyız ki child olandaki "responsive height" değeri çalışsın, yoksa çalışmaz, neye göre height alacağını belirlemek için, sebebi bu */
+.card{
+    width: 50%;
+    border: 2px solid red;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+
+}
+.card img{
+    width: 60%;
+    /* height: 50%; */
+}
+.outline p{
+    margin: 2rem;
+    background-color: magenta;
+    display: inline;
+    padding: 10px;
+    outline: 5px solid black;
+    outline-offset: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

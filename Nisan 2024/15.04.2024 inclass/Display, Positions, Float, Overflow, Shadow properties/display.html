@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: teal;
+            width: 50%;
+        }
+        a{
+            background-color: orange;
+            margin: 50px;
+            margin-top: 50px;
+            /* display: inline-block; */
+            /* padding: 50px; */
+        }
+        span{
+            background-color: magenta;
+            width: 500px;
+            /* display: inline-block; */
+            display: block;
+        }
+        button{
+            padding: 50px;
+        }
+        #fatih{
+            display: block;
+            background-color: red;
+        }
+        .box{
+            margin-top: 5px;
+            background-color: fuchsia;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        .box2{
+            background-color: olive;
+            /* display: none; */
+
+        }
+        .box5{
+            background-color: teal;
+            /* visibility: hidden; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Display</h1>
+
+<!-- inline & inline-block elementler  -->
+    <a href="">Clarusway</a>
+    <strong id="fatih">fatih</strong>
+    <button>Claruway</button>
+    <span>Hello my name is span</span>
+
+    <!-- block elementler -->
+    <div class="box box1">kutu1</div>
+    <div class="box box2" onclick="this.style.display='none'">kutu2</div>
+    <div class="box box3">kutu3</div>
+    <br>
+    <div class="box box4">kutu1</div>
+    <div class="box box5" onclick="this.style.visibility='hidden'">kutu2</div>
+    <div class="box box6">kutu3</div>
+</body>
+</html>

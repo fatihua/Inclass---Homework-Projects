@@ -1,0 +1,48 @@
+body,header,main,article,aside,footer{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+header{
+    background-color: seagreen;
+    margin-top: 10px;
+}
+main{
+    background-color: skyblue;
+    padding: 10px;
+    /* height: 350px */
+    /* overflow: auto; */
+
+}
+aside{
+    background-color: darkgoldenrod;
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-left: 15px;
+}
+article{
+    background-color: greenyellow;
+    width: 70%;
+    height: 300px;
+    float: left;
+    overflow: auto;
+}
+footer{
+    background-color: coral;
+}
+/* .clear{
+    clear: both;
+} */
+
+/* doktrin  bu durumu bu şekilde çözmemizi istiyor*/
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+/* footer::before{
+    content:'Kemal';
+    display: block;
+} */

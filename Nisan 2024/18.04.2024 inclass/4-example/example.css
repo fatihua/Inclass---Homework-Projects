@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: linear-gradient(60deg, black, red);
+   
+}
+.header img{
+    width: 60px;
+    margin-left: 2rem;
+}
+.register{
+    float: right;
+    /* margin-right: 1.5rem; */
+    position: absolute;
+    top: 10px;
+    right: 1.5rem;
+}
+ul{
+    color: white;
+    font-family: "Rowdies", sans-serif;
+    text-align: center;
+    
+}
+
+ul li{
+    display: inline-block;
+    padding: 0.8rem;
+}
+.navbar{
+    background-color: black;
+}
+.carousel{
+    height: 70vh;
+    background: linear-gradient(60deg,rgba(3, 3, 3,0.3),rgba(224, 5, 5,0.7)),url(./images/fast-food.jpg);
+    background-size: cover;
+    background-position:right bottom 30% ;
+    position:relative;
+}
+.carousel h2{
+    color:white;
+    font-size:5rem;
+    position: absolute;
+    top:30%;
+    left:20%;
+
+    /* başka yerlerde de kullanılabilir, güzel ve kullanışlı bir kod örneği */
+    background:-webkit-linear-gradient(190deg, #790808, #ed9c07);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main{
+    width: 100vw;
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+    background-image: radial-gradient(#ed9c07, #790808);
+}
+    
+
+.clearfix{
+    clear: both;
+}
+
+.footer{
+    background: linear-gradient(60deg, black, red);
+    text-align: center;
+}
+.footer p{
+    color: white;
+    padding: 1rem;
+}
+.container-card{
+    background: linear-gradient(60deg, black, red);
+    box-shadow: 0 0 15px gray;
+    display: inline-block;
+    text-align: center;
+    width: 450px;
+    margin: 20px 20px;
+    position: relative;
+}
+.container-card:hover{
+    box-shadow: 0 0 80px white;
+    /* animation: card 1s ease-in-out alternate infinite;  */
+    }
+/* @keyframes card{
+    0%   {top: 0px; width: 450px;}
+    100% {top: 0px; width: 500px;}
+  } */
+
+.container-card:active{
+    opacity: 0.5;
+}
+.image{
+    margin: 20px;
+    height: 200px;
+}
+.par-cont{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background:-webkit-linear-gradient(190deg,#ed9c07, #790808);
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: 700;
+}
+main > .container-card > h3{
+    /* display: inline-block; */
+    border-radius: 5px;
+    outline: 5px solid white;
+    outline-offset: 3px;
+    width: 230px;
+    margin: auto;
+    margin-bottom: 10px;
+    background:-webkit-linear-gradient(190deg,#ed9c07, #790808);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main > .container-card > h3::before{
+    content: '🟧';
+}
+.h2tag{
+    background:-webkit-linear-gradient(190deg, #790808, #f7e7ca);
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: 700;
+    font-size: 50px;
+    font-style:italic;
+    padding-top: 15px;
+    text-decoration: underline;
+    text-decoration-color: #daccb4;
+}
+.btn{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #ed9c07;
+    color: #790808;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+.btn:hover{
+    background-color:#790808;
+    color: #ed9c07;
+}
